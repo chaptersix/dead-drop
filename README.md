@@ -1,12 +1,13 @@
 # Dead Drop
-Dead Drop is a command-line tool designed to send a preprogrammed message via email if a specific signal is not received within a given time period (default is 24 hours). This tool is inspired by the concept of dead drops used by spies in movies, providing a way to send critical information if the user is unable to do so manually.
+Dead Drop is a command-line tool designed to securely store your email configuration and a preprogrammed message using encryption, with the option to send an email via SMTP. Inspired by espionage techniques, it provides commands to setup, load, and delete your encrypted configuration, ensuring that your sensitive information remains protected.
 
 
 ## Features
 
 - Host on any Unix or Windows system.
-- Sends an email via SMTP (recommended: Gmail) if the signal is not received.
-- Preprogrammed message can include references to encrypted files and/or raw text.
+- Securely stores email configuration and messages with encryption.
+- Provides commands to setup, load, and delete the configuration.
+- Supports SMTP email sending (currently available but sending is optional).
 - Lightweight and easy to set up.
 
 ## Installation
